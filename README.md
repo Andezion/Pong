@@ -6,13 +6,20 @@ This is simple Pong-game for two players.
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+I used SFML for graphics, sound, text and user-computer processing. I created templates of rectangles (players) and a ball, in addition I added a sound when the ball is kicked. At the same time used Audacity to correct the sound.  The game has an initial window where you can select an action, namely start play, restart, speed up, slow down or exit. The player score is highlighted at the bottom, and resets to zero on restart. As for the text, the template was taken the most usual, the main thing is that it was readable.
+
+Translated with DeepL.com (free version)
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* SFML-2.6.0 for for visuals and game logic
+* Audacity to adjust and change the sound
+* The Bible for courage
 	
 ## Setup
 To run this project, install it locally using npm:
+```
+sudo apt-get update
+sudo apt-get install libsfml-dev
+
+```
