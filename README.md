@@ -1,2 +1,2 @@
-# Pong
-##This is simple Pong-game for two players.
+# Pong on SFML
+This is simple Pong-game for two players.
