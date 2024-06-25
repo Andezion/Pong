@@ -2,6 +2,7 @@
 This is simple Pong-game for two players.
 ## Table of contents
 * [General info](#general-info)
+* [Gameplay](#gameplay)
 * [Technologies](#technologies)
 * [Setup](#setup)
 
@@ -15,7 +16,11 @@ The mechanism of bouncing from walls or from players is very simple, as soon as 
 ![Game](./Photo/1.jpg)
 
 The game has an initial window where you can select an action, namely start play, restart, speed up, slow down or exit. The player score is highlighted at the bottom, and resets to zero on restart. As for the text, the template was taken the most usual, the main thing is that it was readable.
-	
+
+## Gameplay
+
+https://github.com/Andezion/Pong/assets/115638748/5c83b3cb-e929-4fa9-a40d-c42e674a9300
+
 ## Technologies
 Project is created with:
 * SFML-2.6.0 for for visuals and game logic
