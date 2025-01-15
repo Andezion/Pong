@@ -4,6 +4,7 @@ This is simple Pong-game for two players.
 * [General info](#general-info)
 * [Gameplay](#gameplay)
 * [Technologies](#technologies)
+* [Features](#features)
 * [Setup](#setup)
 
 ## General info
@@ -26,6 +27,23 @@ Project is created with:
 * SFML-2.6.0 for for visuals and game logic
 * Audacity to adjust and change the sound
 * The Bible for courage
+
+## Features
+First we have two auxiliary functions to check for field edge and collision. 
+After that, we load texts, create instructions and basic objects, sounds and variables.
+
+Then we check if the game has started - we start moving the object we created earlier - the ball, checking if it has crossed any fields of the screen.
+In case of collision we change the direction and play the sound:
+```
+if (cheking_hitting(round, rect1) || cheking_hitting(round, rect2))
+{
+	spdX = -spdX;
+
+	sound.play();
+}
+```
+Then we process the keys pressed by our players and display the score.
+If the game hasn't started yet, we show text/instructions to the players.
 	
 ## Setup
 To run this project, install it locally using npm:
